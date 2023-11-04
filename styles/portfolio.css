@@ -115,11 +115,13 @@ section {
 .section-description {
     counter-reset: #757575;
     font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .about-info-container {
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .about .info-title {
@@ -133,17 +135,25 @@ section {
     color: #474747;
 }
 
-.what-i-do {}
+.what-i-do{
+    
+}
+
+.what-i-do .section-description{
+    text-align: center;
+    width: 909px;
+    margin: 50px 100px;
+}
 
 .skill-container {
     display: flex;
-    /* margin: 0 150px; */
+    margin-top: 30px;
     gap: 24px;
 }
 
 .skill {
     background: #ffffff;
-    box-shadow: 0px 5px 20px black;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
 }
@@ -222,4 +232,5 @@ input {
 
 .contact a {
     text-decoration: none;
+    display:inline;
 }
