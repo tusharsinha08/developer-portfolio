@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
-    font-family: 'Open Sans' sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header {
     background: #fff8f3;
-    background-image: url(../images/header_bg.png) , url(../images/developer.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
 
@@ -49,7 +50,7 @@ nav {
     font-size: 45px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
 }
@@ -60,9 +61,9 @@ nav li {
 }
 
 /* banner style */
-.banner{
-    display:flex;
-    margin: 0 200px ;
+.banner {
+    display: flex;
+    margin: 0 200px;
     margin-right: 50px;
     align-items: center;
     justify-content: space-between;
@@ -84,6 +85,7 @@ nav li {
     font-size: 18px;
     margin-bottom: 30px;
 }
+
 /* main section */
 main {
     max-width: 1140px;
@@ -92,7 +94,7 @@ main {
 
 section {
     margin-top: 130px;
-    
+
 }
 
 /* about section */
@@ -102,12 +104,14 @@ section {
     padding: 130px 150px;
     text-align: center;
 }
+
 .section-title {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 50px;
 }
+
 .section-description {
     counter-reset: #757575;
     font-size: 18px;
@@ -117,6 +121,7 @@ section {
     display: flex;
     justify-content: space-around;
 }
+
 .about .info-title {
     font-size: 20px;
     color: #757575;
@@ -128,9 +133,7 @@ section {
     color: #474747;
 }
 
-.what-i-do{
-
-}
+.what-i-do {}
 
 .skill-container {
     display: flex;
@@ -142,7 +145,7 @@ section {
     background: #ffffff;
     box-shadow: 0px 5px 20px black;
     border-radius: 5px;
-    padding:  30px;
+    padding: 30px;
 }
 
 .skill-title {
@@ -162,12 +165,12 @@ section {
     gap: 24px;
 }
 
-.resume-item{
+.resume-item {
     margin-bottom: 30px;
     margin-top: 30px;
 }
 
-.resume .title{
+.resume .title {
     font-weight: 700;
     font-size: 25px;
     color: #474747;
@@ -181,28 +184,31 @@ section {
     font-size: 20px;
     margin-bottom: 20px;
 }
-.resume .description{
+
+.resume .description {
     color: #757575;
 }
 
-.resume-btn{
+.resume-btn {
     margin-top: 50px;
     text-align: center;
 }
 
 /* contact styles */
-.contact{
+.contact {
     display: flex;
     gap: 100px;
     background-color: #fff8f3;
     padding: 130px 200px;
 }
 
-.contact .section-title{
+.contact .section-title {
     text-align: left;
 }
 
-.contact input[type="text"], input[type="email"], textarea {
+.contact input[type="text"],
+input[type="email"],
+textarea {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
@@ -213,6 +219,7 @@ input {
     height: 20px;
 
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
 }
