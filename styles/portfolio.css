@@ -135,11 +135,9 @@ section {
     color: #474747;
 }
 
-.what-i-do{
-    
-}
+.what-i-do {}
 
-.what-i-do .section-description{
+.what-i-do .section-description {
     text-align: center;
     width: 909px;
     margin: 50px 100px;
@@ -232,5 +230,4 @@ input {
 
 .contact a {
     text-decoration: none;
-    display:inline;
 }
