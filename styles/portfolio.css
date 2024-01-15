@@ -87,7 +87,7 @@ nav li {
 }
 
 /* main section */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -134,6 +134,7 @@ section {
     font-size: 20px;
     color: #474747;
 }
+
 .what-i-do .section-description {
     text-align: center;
     padding: 50px 100px;
@@ -141,6 +142,7 @@ section {
 
 .skill-container {
     display: flex;
+    justify-content: space-between;
     padding: 30px 100px;
     gap: 24px;
 }
@@ -228,60 +230,112 @@ input {
 }
 
 @media screen and (max-width: 576px) {
-    
-    .header{
+
+    .header {
         background-image: url(../images/header_bg.png);
         background-repeat: no-repeat;
         background-position: bottom;
+        background-size: 550px;
     }
-    .header img{
+
+    .header img {
         width: 110%;
     }
-    .banner button{
+
+    .banner button {
         width: 220px;
         margin: 5px 0;
     }
-    .banner{
-        margin: 0;
-    }
+
     nav {
         padding: 10px 20px;
     }
-    nav ul{
+
+    nav ul {
         flex-direction: column;
         align-items: flex-start;
         gap: 5px;
     }
-    .banner, 
+
+    .banner,
     .skill-container,
     .resume-container,
-    .about-info-container, 
-    .contact{
+    .about-info-container,
+    .contact {
         flex-direction: column;
         gap: 20px;
         padding: 10px 20px;
     }
+
+    .banner {
+        margin: 0;
+        padding-bottom: 0;
+    }
+
     .what-i-do .section-description {
         text-align: center;
         padding: 10px;
     }
-    .about, .contact{
+
+    .about,
+    .contact {
         padding: 20px;
     }
-    .contact input[type="text"], input[type="email"], textarea {
+
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
         padding: 5px 0 5px 5px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .about, .contact{
+    .header {
+        background-size: 550px, auto;
+    }
+
+    nav {
+        padding: 50px 100px;
+    }
+
+    .banner {
+        margin: 0 100px;
+    }
+
+    .banner img {
+        width: 390px;
+        padding-top: 50px;
+    }
+
+    .banner button {
+        width: 220px;
+        margin: 5px 0;
+    }
+
+    .about,
+    .contact {
         padding: 20px;
         gap: 10px;
     }
-    .resume-container{
-        padding: 5px;
+
+    .skill-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* padding: 20px; */
     }
-    .contact input[type="text"], input[type="email"], textarea {
+
+    .resume-item {
+        height: 200px;
+    }
+
+    .resume-container {
+        /* flex-direction: column; */
+        padding: 20px;
+    }
+
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
         padding: 10px 0 10px 10px;
     }
 }
