@@ -291,30 +291,28 @@ input {
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .header {
-        background-size: 550px, auto;
+        background-image: url(../images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
     }
-
+    .header img{
+        margin-left: 140px;
+    }
     nav {
         padding: 50px 100px;
     }
 
     .banner {
+        flex-direction: column;
         margin: 0 100px;
     }
 
-    .banner img {
-        width: 390px;
-        padding-top: 50px;
+    .about{
+        margin: 50px 30px;
     }
-
-    .banner button {
-        width: 220px;
-        margin: 5px 0;
-    }
-
     .about,
     .contact {
-        padding: 20px;
+        padding: 50px;
         gap: 10px;
     }
 
